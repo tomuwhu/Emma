@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(71, 6, 6);
+}
+table {
+    margin: auto;
+    border-spacing: 5px;
+    background-color: rgb(175, 108, 142);
+    border-radius: 10px;
+    border: solid 7px white;
+    box-shadow: 1px 1px 3px black;
+}
+td {
+    padding: 3px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: rgb(116, 128, 162);
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px inset black;
+    cursor: pointer;
+    font-size: 14px;
+}
+td:hover {
+    background-color: aquamarine;
+}

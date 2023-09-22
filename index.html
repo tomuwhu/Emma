@@ -2,23 +2,21 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=Cica, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="o1.css">
     <title>Document</title>
-    <style>
-        h1 {
-            background-color: Tomato;
-            text-align: center;
-            color: rgb(52, 19, 150);
-            text-shadow: 1px 1px 4px gray;
-            border-radius: 8px;
-            box-shadow: 1px 1px 3px inset black;
-        }
-    </style>
+    <script src="o1.js"></script>
+
 </head>
 <body>
-    <h1>
-        Emmának weboldal
+    <h1 id="e0" onclick="f()">
+        Emmának weboldal 2
     </h1>
-    Tetszik.
+    <h1 id="e1">
+       0
+    </h1>
+    Mennyire nem tetszik?
+    <input type="number" min="0" max="10" oninput="g(this.value)">
 </body>
+
 </html>

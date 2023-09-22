@@ -1,0 +1,13 @@
+h1 {
+    user-select: none;
+    background-color: Tomato;
+    text-align: center;
+    color: rgb(52, 19, 150);
+    text-shadow: 1px 1px 4px gray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px inset black;
+    cursor: pointer;
+}
+h1#e0:hover {
+    background-color: rgb(7, 123, 123);
+}
