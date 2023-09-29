@@ -2,7 +2,7 @@ from browser import document as D, html as H
 next = "X"
 def f(e):
     global next
-    e.target <= H.SPAN(next)
+    e.target <= next
     if next == "X":
         next = "O"
         e.target.style.backgroundColor="red"
